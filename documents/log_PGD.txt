@@ -1,0 +1,88 @@
+Loading data...
+Vocab size: 4762
+<bound method Module.parameters of Model(
+  (embedding): Embedding(4762, 300, padding_idx=4761)
+  (convs): ModuleList(
+    (0): Conv2d(1, 256, kernel_size=(2, 300), stride=(1, 1))
+    (1): Conv2d(1, 256, kernel_size=(3, 300), stride=(1, 1))
+    (2): Conv2d(1, 256, kernel_size=(4, 300), stride=(1, 1))
+  )
+  (dropout): Dropout(p=0.5, inplace=False)
+  (fc): Linear(in_features=768, out_features=10, bias=True)
+)>
+Epoch [1/20]
+Iter:      0,  Train Loss:   2.3,  Train Acc: 10.94%,  Val Loss:   2.2,  Val Acc: 26.47%,  Time: 0:00:00 *
+Iter:    100,  Train Loss:  0.88,  Train Acc: 69.53%,  Val Loss:  0.67,  Val Acc: 78.98%,  Time: 0:00:08 *
+Iter:    200,  Train Loss:  0.97,  Train Acc: 74.22%,  Val Loss:  0.55,  Val Acc: 82.85%,  Time: 0:00:16 *
+Iter:    300,  Train Loss:  0.61,  Train Acc: 83.59%,  Val Loss:  0.52,  Val Acc: 84.05%,  Time: 0:00:24 *
+Iter:    400,  Train Loss:   1.0,  Train Acc: 74.22%,  Val Loss:   0.5,  Val Acc: 84.91%,  Time: 0:00:32 *
+Iter:    500,  Train Loss:  0.46,  Train Acc: 82.03%,  Val Loss:  0.47,  Val Acc: 85.71%,  Time: 0:00:40 *
+Iter:    600,  Train Loss:  0.65,  Train Acc: 78.91%,  Val Loss:  0.46,  Val Acc: 86.23%,  Time: 0:00:48 *
+Iter:    700,  Train Loss:  0.59,  Train Acc: 78.12%,  Val Loss:  0.43,  Val Acc: 86.83%,  Time: 0:00:56 *
+Iter:    800,  Train Loss:  0.66,  Train Acc: 78.91%,  Val Loss:  0.42,  Val Acc: 87.07%,  Time: 0:01:04 *
+Iter:    900,  Train Loss:  0.44,  Train Acc: 89.06%,  Val Loss:  0.41,  Val Acc: 87.57%,  Time: 0:01:12 *
+Iter:   1000,  Train Loss:  0.42,  Train Acc: 87.50%,  Val Loss:  0.42,  Val Acc: 87.09%,  Time: 0:01:20 
+Iter:   1100,  Train Loss:  0.42,  Train Acc: 85.94%,  Val Loss:  0.41,  Val Acc: 87.22%,  Time: 0:01:28 *
+Iter:   1200,  Train Loss:  0.51,  Train Acc: 82.03%,  Val Loss:   0.4,  Val Acc: 87.56%,  Time: 0:01:36 *
+Iter:   1300,  Train Loss:  0.56,  Train Acc: 81.25%,  Val Loss:   0.4,  Val Acc: 87.47%,  Time: 0:01:44 
+Iter:   1400,  Train Loss:  0.62,  Train Acc: 82.03%,  Val Loss:  0.39,  Val Acc: 87.96%,  Time: 0:01:52 *
+Epoch [2/20]
+Iter:   1500,  Train Loss:  0.55,  Train Acc: 85.94%,  Val Loss:  0.39,  Val Acc: 87.97%,  Time: 0:02:00 
+Iter:   1600,  Train Loss:  0.37,  Train Acc: 88.28%,  Val Loss:  0.38,  Val Acc: 88.15%,  Time: 0:02:08 *
+Iter:   1700,  Train Loss:  0.47,  Train Acc: 86.72%,  Val Loss:  0.38,  Val Acc: 88.48%,  Time: 0:02:16 
+Iter:   1800,  Train Loss:  0.33,  Train Acc: 89.06%,  Val Loss:  0.38,  Val Acc: 88.22%,  Time: 0:02:24 
+Iter:   1900,  Train Loss:  0.51,  Train Acc: 82.03%,  Val Loss:  0.38,  Val Acc: 88.49%,  Time: 0:02:32 *
+Iter:   2000,  Train Loss:  0.39,  Train Acc: 89.06%,  Val Loss:  0.37,  Val Acc: 88.67%,  Time: 0:02:40 *
+Iter:   2100,  Train Loss:  0.43,  Train Acc: 88.28%,  Val Loss:  0.36,  Val Acc: 88.91%,  Time: 0:02:48 *
+Iter:   2200,  Train Loss:  0.42,  Train Acc: 87.50%,  Val Loss:  0.37,  Val Acc: 89.06%,  Time: 0:02:56 
+Iter:   2300,  Train Loss:   0.4,  Train Acc: 89.06%,  Val Loss:  0.36,  Val Acc: 89.08%,  Time: 0:03:04 *
+Iter:   2400,  Train Loss:  0.38,  Train Acc: 89.06%,  Val Loss:  0.38,  Val Acc: 88.41%,  Time: 0:03:12 
+Iter:   2500,  Train Loss:  0.29,  Train Acc: 89.06%,  Val Loss:  0.35,  Val Acc: 89.14%,  Time: 0:03:20 *
+Iter:   2600,  Train Loss:  0.32,  Train Acc: 90.62%,  Val Loss:  0.37,  Val Acc: 88.77%,  Time: 0:03:28 
+Iter:   2700,  Train Loss:  0.27,  Train Acc: 89.84%,  Val Loss:  0.35,  Val Acc: 89.16%,  Time: 0:03:36 *
+Iter:   2800,  Train Loss:  0.45,  Train Acc: 83.59%,  Val Loss:  0.36,  Val Acc: 88.84%,  Time: 0:03:44 
+Epoch [3/20]
+Iter:   2900,  Train Loss:  0.37,  Train Acc: 89.84%,  Val Loss:  0.35,  Val Acc: 89.28%,  Time: 0:03:52 *
+Iter:   3000,  Train Loss:  0.35,  Train Acc: 87.50%,  Val Loss:  0.35,  Val Acc: 89.15%,  Time: 0:04:00 
+Iter:   3100,  Train Loss:   0.3,  Train Acc: 92.19%,  Val Loss:  0.36,  Val Acc: 89.05%,  Time: 0:04:08 
+Iter:   3200,  Train Loss:  0.41,  Train Acc: 90.62%,  Val Loss:  0.37,  Val Acc: 88.49%,  Time: 0:04:16 
+Iter:   3300,  Train Loss:  0.38,  Train Acc: 87.50%,  Val Loss:  0.36,  Val Acc: 89.05%,  Time: 0:04:24 
+Iter:   3400,  Train Loss:  0.49,  Train Acc: 84.38%,  Val Loss:  0.35,  Val Acc: 89.40%,  Time: 0:04:32 
+Iter:   3500,  Train Loss:   0.2,  Train Acc: 93.75%,  Val Loss:  0.35,  Val Acc: 89.06%,  Time: 0:04:40 
+Iter:   3600,  Train Loss:  0.18,  Train Acc: 93.75%,  Val Loss:  0.35,  Val Acc: 89.40%,  Time: 0:04:48 
+Iter:   3700,  Train Loss:  0.37,  Train Acc: 88.28%,  Val Loss:  0.35,  Val Acc: 89.22%,  Time: 0:04:56 
+Iter:   3800,  Train Loss:  0.46,  Train Acc: 87.50%,  Val Loss:  0.36,  Val Acc: 89.23%,  Time: 0:05:04 
+Iter:   3900,  Train Loss:  0.39,  Train Acc: 88.28%,  Val Loss:  0.37,  Val Acc: 88.84%,  Time: 0:05:12 
+No optimization for a long time, auto-stopping...
+Test Loss:  0.33,  Test Acc: 89.81%
+Precision, Recall and F1-Score...
+               precision    recall  f1-score   support
+
+      finance     0.9102    0.8820    0.8959      1000
+       realty     0.9208    0.9190    0.9199      1000
+       stocks     0.8415    0.8280    0.8347      1000
+    education     0.9526    0.9440    0.9483      1000
+      science     0.8116    0.8790    0.8440      1000
+      society     0.8894    0.9010    0.8952      1000
+     politics     0.8900    0.8820    0.8860      1000
+       sports     0.9240    0.9600    0.9416      1000
+         game     0.9244    0.8920    0.9079      1000
+entertainment     0.9245    0.8940    0.9090      1000
+
+     accuracy                         0.8981     10000
+    macro avg     0.8989    0.8981    0.8982     10000
+ weighted avg     0.8989    0.8981    0.8982     10000
+
+Confusion Matrix...
+[[882  16  50   4  13   8  10  12   3   2]
+ [ 12 919  22   3   7  15   8   3   3   8]
+ [ 53  27 828   1  47   5  30   6   2   1]
+ [  3   3   5 944   8  11  10   5   2   9]
+ [  2   4  28   7 879  17  17   7  27  12]
+ [  5  14   4  14  21 901  20   4   4  13]
+ [  9   6  34   7  25  28 882   4   1   4]
+ [  0   2   0   1   5   8   7 960   3  14]
+ [  0   1   8   4  62   6   4  13 892  10]
+ [  3   6   5   6  16  14   3  25  28 894]]
+Test time usage: 0:00:00
+All time usage: 0:05:19
