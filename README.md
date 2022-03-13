@@ -1,6 +1,14 @@
 ## 对抗训练简介
+
 本实验简单的实现了FGSM、PGD、Free
 详细的介绍可以参考[实验报告](documents/实验报告.pdf) 。
+
+## 备注
+TextCNN的代码来源于github项目[Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorc)。
+
+对抗训练的代码来源于github项目：[TextCNN-Adversarial-Training-in-NLP](https://github.com/shshlzh/TextCNN-Adversarial-Training-in-NLP.git)。
+
+训练数据集来源于上述TextCNN作者从THUCNews中抽取了20万条新闻标题，一共10个类别，每类2万条，文本长度在20到30之间
 
 ## 数据集
 
