@@ -4,7 +4,7 @@
 详细的介绍可以参考[实验报告](documents/实验报告.pdf) 。
 
 ## 备注
-TextCNN的代码来源于github项目[Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorc)。
+TextCNN的代码来源于github项目：[Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorc)。
 
 对抗训练的代码来源于github项目：[TextCNN-Adversarial-Training-in-NLP](https://github.com/shshlzh/TextCNN-Adversarial-Training-in-NLP.git)。
 
